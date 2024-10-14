@@ -1,7 +1,7 @@
 # regex-samples
 complete source of useful regex patterns for using in javascript,php,....
 
-## 1-persian data sample :)
+## 1-persian date sample :)
  
 `^(140[0123]{1}|13[0-9]{2}|[6-9]{2})[-/\s](0?[1-9]|1[012])[-/\s](0?[1-9]|[12][0-9]|3[01])$`
 
