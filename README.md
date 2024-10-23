@@ -12,7 +12,9 @@ complete source of useful regex patterns for using in javascript,php,....
 #### - 01 to 12 or 1 to 12 for month.
 #### - 01 to 31 or 1 to 31 for days.
 
-## 1-persian Telephone number sample :)
+
+
+## 2-persian Telephone number sample :)
 
 `^0\d{2,3}\-\d{8}$`
 
