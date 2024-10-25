@@ -25,3 +25,8 @@ complete source of useful regex patterns for using in javascript,php,....
 #### - "-" character for separate pre-number and main number.
 #### - 8 digit number at the end (main number).
 
+
+
+## 3-Email(gmail,yahoo,host,...) sample :)
+
+`^[\w\d]+([._-]?[\w\d]+)*@[\w\d]+([-]?[\w\d]+)*(\.[\w]{2,})+$`
