@@ -5,7 +5,7 @@ complete source of useful regex patterns for using in javascript,php,....
  
 `^(140[0123]{1}|13[0-9]{2}|[6-9]{2})[-/\s](0?[1-9]|1[012])[-/\s](0?[1-9]|[12][0-9]|3[01])$`
 
-## hints :
+### hints :
 
 #### - this sample can accept (-) ,(/) ,(space) separators.
 #### - 1300 to 1403 for years.
@@ -18,7 +18,7 @@ complete source of useful regex patterns for using in javascript,php,....
 
 `^0\d{2,3}\-\d{8}$`
 
-## hints :
+### hints :
 
 #### - "0" digit is necessary at beginning of the number due to the country legals.
 #### - 2 or 3 digit number after "0" for province code.
@@ -30,3 +30,27 @@ complete source of useful regex patterns for using in javascript,php,....
 ## 3-Email(gmail,yahoo,host,...) sample :)
 
 `^[\w\d]+([._-]?[\w\d]+)*@[\w\d]+([-]?[\w\d]+)*(\.[\w]{2,})+$`
+
+
+
+## 4-IPV4 sample :)
+
+`^((25[0-5]|2[0-4][0-9]|1?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|1?[0-9][0-9]?)$`
+
+### hints :
+
+#### - 0 to 255 range supported.
+#### - separate four part with '.' symbol.
+
+
+
+## 5-URL sample :)
+
+`^(https?:\/\/)?(www\.)?[\w\d-]+(\.[\w]{2,})+([\/?#][^\s]*)?$`
+
+### hints :
+
+#### - http and https supported.
+#### - www. supported.
+#### - analyze legal domain(ir,com,net,...)
+#### - query,#,/path supported.
